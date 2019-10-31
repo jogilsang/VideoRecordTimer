@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+
+    <color name="bg_gradient_start_2">#FFFFFF</color>
+    <color name="bg_gradient_end_2">#000000</color>
+
+
+    <color name="bg_login">#F6D6F3</color>
+
+    <!--start 카카오 이미지서치-->
+    <color name="text_hint">#33000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="light_gray">#D3D3D3</color>
+
+    <color name="color_main">#00CC00</color>
+    <color name="color_sub">#000000</color>
+
+    <color name="dodger_blue">#1E90FF</color>
+    <color name="celadon_green">#2F847C</color>
+    <color name="color_main_dark">#B71C1C</color>
+    <color name="color_accent">#7D95B3</color>
+
+    <color name="kakao">#fef01b</color>
+    <color name="kakao2">#556677</color>
+
+    <!--end 카카오 이미지서치-->
+
+    <!--start 폰트색깔-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#333333</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF3300</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#00CC00</color>
+    <color name="jade">#009999</color>
+    <color name="sky">#0099FF</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#9900CC</color>
+    <color name="pink">#FF0099</color>
+    <!--end 폰트색깔-->
+
+    <!--pixabay-master-->
+    <color name="textColorPrimaryOpposite">#FFFFFF</color>
+    <color name="colorBackgroundOpposite">#424242</color>
+    <color name="background">#303030</color>
+    <color name="background_light">#424242</color>
+    <color name="white_light">#F5F5F5</color>
+    <color name="translucent">#00000000</color>
+
+
+    <!--photoeditor-->
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+
+
+    <!-- pie char color -->
+
+    <color name="pie1">#0288D1</color>
+    <color name="pie2">#F2385A</color>
+    <color name="pie3">#F5A503</color>
+    <color name="pie4">#7FFF00</color>
+    <color name="pie5">#FF2D00</color>
+    <color name="pie6">#727272</color>
+    <color name="pie7">#FDFF00</color>
+    <color name="pie8">#008000</color>
+    <color name="pie9">#BF00FF</color>
+    <color name="pie10">#7DF9FF</color>
+
+    <color name="pie11">#228B22</color>
+    <color name="pie12">#00FF00</color>
+    <color name="pie13">#3F00FF</color>
+    <color name="pie14">#F4BBFF</color>
+    <color name="pie15">#FEF65B</color>
+    <color name="pie16">#EF3038</color>
+    <color name="pie17">#3CB371</color>
+    <color name="pie18">#FFEB00</color>
+    <color name="pie19">#FFDAE9</color>
+
+    <color name="gray2">#e9ecef</color>
+
+    <color name="magenta">#FF00FF</color>
+
+    <!--chatkit-->
+    <color name="white60">#a0ffffff</color>
+    <color name="white_two">#efefef</color>
+    <color name="white_three">#ebebeb</color>
+    <color name="white_four">#e0e0e0</color>
+    <color name="white_five">#dadada</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="dark_gray">#282a2b</color>
+    <color name="dark_grey_two">#191a1b</color>
+    <color name="warm_grey">#7f7f7f</color>
+    <color name="warm_grey_two">#9c9c9c</color>
+    <color name="warm_grey_three">#8b8b8b</color>
+    <color name="warm_grey_four">#979797</color>
+    <color name="dark_mint">#51c05c</color>
+    <color name="cornflower_blue_two">#4f62d7</color>
+    <color name="cornflower_blue_two_24">#3d4f62d7</color>
+    <color name="cornflower_blue_two_dark">#475bd4</color>
+    <color name="cornflower_blue_light_40">#64bec5f7</color>
+
+    <color name="dialog_divider">@color/white_three</color>
+    <color name="dialog_title_text">@color/dark_gray</color>
+    <color name="dialog_message_text">@color/warm_grey</color>
+    <color name="dialog_date_text">@color/warm_grey_two</color>
+    <color name="dialog_unread_text">@color/white</color>
+    <color name="dialog_unread_bubble">@color/dark_mint</color>
+
+    <!-- forest green, electirc green, electric ultramarine, electric lavender, Dodie Yellow
+    deep carmine,medium sea green,Middle Yellow,Mimi Pink -->
+
+    <!-- pie char color -->
+
+    <color name="colorNomal">#f2f2f2</color>
+    <color name="colorPrimary">#F0BC24</color>
+    <color name="colorPrimaryDark"> #00BFFF</color>
+    <color name="colorBackground">#F3B24A</color>
+
+    <!--pixabay app 에서 가져옴-->
+    <color name="colorAccent">#57b057</color>
+    <color name="colorTransparentDark">#ad000000</color>
+    <color name="colorTransparentWhite">#CCFFFFFF</color>
+    <!--pixabay app 에서 가져옴-->
+
+    <color name="chartreuse">#7FFF00</color>
+
+    <color name="smooth_black">#55000000</color>
+
+    <color name="babypowder">#FEFEFA</color>
+
+    <color name="deep_aquamarine">#40826D</color>
+
+    <color name="google">#CF4332</color>
+
+
+    <!-- ▼ Generation icon color -->
+
+    <color name="springgreen1_20"> #00FF7F</color>
+    <color name="deepskyblue1_30"> #00BFFF</color>
+    <color name="LightSalmon_40"> #FFA07A</color>
+    <color name="PaleVioletRed1_50"> #FF82AB</color>
+    <color name="Firebrick3_60"> #CD2626</color>
+
+    <!-- ▲ Generation icon color -->
+
+    <!-- ▼  ventanaazur -->
+
+    <color name="ventanaazur_1">#F2385A</color>
+    <color name="ventanaazur_2">#F5A503</color>
+    <color name="ventanaazur_3">#4AD9D9</color>
+
+    <!-- ▲ ventanaazur -->
+
+    <!-- ▼  circus-3 -->
+
+    <color name="circus3_1">#04756F</color>
+    <color name="circus3_2">#FF8C00</color>
+    <color name="circus3_3">#FF2D00</color>
+    <color name="circus3_4">#D90000</color>
+
+    <!-- ▲ circus-3 -->
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+
+
+    <color name="stroke">#000000</color>
+    <color name="cmon1">#D4FF00</color>
+    <color name="cmon2">#13140F</color>
+    <color name="cmon3">#E4FFE6</color>
+
+    <color name="colorPrimaryText">#0288D1</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="lemon_glaciar">#FDFF00</color>
+
+
+    <color name="step_pager_previous_tab_color">#4433b5e5</color>
+    <color name="step_pager_selected_tab_color">#ff0099cc</color>
+    <color name="step_pager_selected_last_tab_color">#ff669900</color>
+    <color name="step_pager_next_tab_color">#10000000</color>
+
+    <color name="review_green">#ff669900</color>
+
+    <color name="text_light">#66000000</color>
+
+
+
+
+</resources>

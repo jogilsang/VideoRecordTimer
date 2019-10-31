@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!--상단 레이아웃 : 타이머-->
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/upper_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/count_view"
+            android:drawableLeft="@drawable/ic_timer"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="00:00:00"
+            android:textSize="@dimen/text_large"
+            />
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--카메라 레이아웃-->
+    <LinearLayout
+        android:layout_below="@+id/upper_layout"
+        android:layout_above="@+id/buttonsLayout"
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" />
+
+    <!--하단 레이아웃 : 버튼-->
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+
+        <!--화면 전환-->
+        <ImageView
+            android:src="@drawable/ic_rotate"
+            android:id="@+id/img_ChangeCamera"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:text="switch" />
+
+        <!--클릭시 비디오 캡쳐-->
+        <ImageView
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_record_icon"
+            android:layout_centerInParent="true"
+            android:id="@+id/img_capture"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="Capture/Stop" />
+
+        <!--클릭시 가이드 표출-->
+        <ImageView
+            android:src="@drawable/ic_info"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/img_guide"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:text="guide" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
