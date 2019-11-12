@@ -46,11 +46,15 @@ For medium size to larger projects it is important to at least provide a link to
 Describe and show how to run the tests with code examples.
 
 ## How to use?
-If people like your project they’ll want to learn how they can use it. 
-To do so include step by step guide to use your project.
+If you use the GitHub website
+1. Open in Desktop or Download ZIP
 
-git clone [git address]
-git pull [git address]
+If you use git bash
+1. git clone https://github.com/jogilsang/android-VideoRecordTimer.git
+1. git pull https://github.com/jogilsang/android-VideoRecordTimer.git
+
+Launch Android Studio and select File-New-Import Project from the top menu bar. Just run
+if it doesn't work, check build status at the top
 
 ## Contribute
 If you want to contribute to this project, it would be nice to add the following:
