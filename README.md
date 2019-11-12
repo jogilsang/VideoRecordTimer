@@ -1,7 +1,8 @@
 # VideoRecordTimer
-for me and android
+⭐️ Star us on GitHub — it helps!
 
-"![](/intro.jpg)"
+This takes the value for hours: minutes: seconds from the previous activity in String format,
+This is a template for recording video screens.
 
 ## Project title
 A little info about your project and/ or overview that explains what the project is about.
@@ -18,7 +19,7 @@ If you're using any code style like xo, standard etc.
 That will help others while contributing to your project. Ex. -
 
 ## Screenshots
-Include logo/demo screenshot etc.
+"![](/intro.jpg)"
 
 ## Tech/framework used
 Ex. -
