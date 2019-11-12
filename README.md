@@ -1,15 +1,14 @@
+## Project title
 # VideoRecordTimer
 ⭐️ Star us on GitHub — it helps!
 
 This takes the value for hours: minutes: seconds from the previous activity in String format,
 This is a template for recording video screens.
 
-## Project title
 A little info about your project and/ or overview that explains what the project is about.
 
 ## Motivation
-A short description of the motivation behind the creation and maintenance of the project. 
-This should explain why the project exists.
+This project was saved as a template for Android app creation to perform basic functions.
 
 ## Build status
 Build status of continus integration i.e. travis, appveyor etc. Ex. -
