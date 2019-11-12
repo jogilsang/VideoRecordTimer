@@ -23,36 +23,67 @@ This is a template for recording video screens.
 "![](/intro.jpg)"
 
 ## Tech/framework used
-Ex. -
-Built with
-Electron
+```
+import android.media.MediaRecorder;
+```
 
-What makes your project stand out?
+```
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+```
 
 ## Code Example
-Show what the library does as concisely as possible, 
-developers should be able to figure out how your project solves their problem by looking at the code example. 
-Make sure the API you are showing off is obvious, and that your code is short and concise.
+```
+    private boolean prepareMediaRecorder() {
+
+        mediaRecorder = new MediaRecorder();
+
+        mCamera.unlock();
+        mediaRecorder.setCamera(mCamera);
+
+        mediaRecorder.setAudioSource(MediaRecorder.AudioSource.CAMCORDER);
+        mediaRecorder.setVideoSource(MediaRecorder.VideoSource.CAMERA);
+
+        mediaRecorder.setProfile(CamcorderProfile.get(CamcorderProfile.QUALITY_720P));
+
+        mediaRecorder.setOutputFile("/sdcard/myvideo.mp4");
+        mediaRecorder.setMaxDuration(600000); // Set max duration 60 sec.
+        mediaRecorder.setMaxFileSize(50000000); // Set max file size 50M
+
+        try {
+            mediaRecorder.prepare();
+        } catch (IllegalStateException e) {
+            releaseMediaRecorder();
+            return false;
+        } catch (IOException e) {
+            releaseMediaRecorder();
+            return false;
+        }
+        return true;
+
+    }
+```
+
+## Reference
+- Android-Video Intent and Video Paths, Video Playback Total Cleanup
+https://blog.naver.com/jogilsang/221694414001  
 
 ## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
-
-## API Reference
-Depending on the size of the project, 
-if it is small and simple enough the reference docs can be added to the README. 
-For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-Describe and show how to run the tests with code examples.
-
-## How to use?
 If you use the GitHub website
-1. Open in Desktop or Download ZIP
+1. Open in Desktop or Download ZIP about this project
 
 If you use git bash
 1. git clone https://github.com/jogilsang/android-VideoRecordTimer.git
-1. git pull https://github.com/jogilsang/android-VideoRecordTimer.git
 
+## How to use?
 Launch Android Studio and select File-New-Import Project from the top menu bar. Just run
 if it doesn't work, check build status at the top
 
@@ -66,3 +97,4 @@ If you want to contribute to this project, it would be nice to add the following
 
 ## License
 Apache © jogilsang
+![AUR license](https://img.shields.io/aur/license/VideoRecordTimer)
