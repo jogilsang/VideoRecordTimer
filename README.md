@@ -94,8 +94,32 @@ If you want to contribute to this project, it would be nice to add the following
 - Android-Video Intent and Video Paths, Video Playback Total Cleanup  
 https://blog.naver.com/jogilsang/221694414001  
 
+Cotact
+=============
+
+mail :
+jogilsang@naver.com
+
+kakao :
+jogilsang
+
+Instagram :
+<https://www.instagram.com/jogilsang3>
+
+Youtube :
+<https://www.youtube.com/user/mrjogilsang>
+
+more information : 
+<https://blog.naver.com/jogilsang>
+
+Donate
+=============
+Bitcoin : 351pQjDFFWW61HHKcSFQHcEMNYy4rP91ex
+
+Etherium : 0xb2470124ac43a955c36d7a21e208fae5d0d5d2e0
+
 ## License
-The MIT License © jogilsang
+The MIT License © 2019 jogilsang
 ```
 The MIT License
 
