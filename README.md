@@ -97,4 +97,4 @@ If you want to contribute to this project, it would be nice to add the following
 
 ## License
 Apache © jogilsang
-AUR license badge
+![](https://img.shields.io/badge/license-Apache-blue)
