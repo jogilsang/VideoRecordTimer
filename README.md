@@ -20,7 +20,7 @@ This is a template for recording video screens.
 
 
 ## Screenshots
-"![](/intro.jpg)"<center><img src="/11.png" width="375" height="667"></center>
+"![](/intro.jpg)"
 
 ## Tech/framework used
 Ex. -
@@ -49,13 +49,16 @@ Describe and show how to run the tests with code examples.
 If people like your project they’ll want to learn how they can use it. 
 To do so include step by step guide to use your project.
 
+git clone [git address]
+git pull [git address]
+
 ## Contribute
-Let people know how they can contribute into your project. A contributing guideline will be a big plus.
+If you want to contribute to this project, it would be nice to add the following:
+- UI / UX
+- Screen Orientation function
 
 ## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, 
-any blogposts or links to people who contrbuted in this project.
-Anything else that seems useful
+@jogilsang
 
 ## License
 Apache © jogilsang
