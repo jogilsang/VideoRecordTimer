@@ -1,31 +1,32 @@
-## Project title
+
 # VideoRecordTimer
 ⭐️ Star us on GitHub — it helps!
-
-This takes the value for hours: minutes: seconds from the previous activity in String format,
-This is a template for recording video screens.
-
-A little info about your project and/ or overview that explains what the project is about.
 
 ## Motivation
 This project was saved as a template for Android app creation to perform basic functions.
 
+## Features
+This takes the value for hours: minutes: seconds from the previous activity in String format,
+This is a template for recording video screens.
+
 ## Build status
-Build status of continus integration i.e. travis, appveyor etc. Ex. -
+- Android Studio 3.4.1  
+- Build #AI-183.6156.11.34.5522156, built on May 2, 2019  
+- JRE: 1.8.0_152-release-1343-b01 amd64  
+- JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o  
+- Windows 10 10.0-  
 
 ## Code Style
-If you're using any code style like xo, standard etc. 
-That will help others while contributing to your project. Ex. -
+
 
 ## Screenshots
-"![](/intro.jpg)"
+"![](/intro.jpg)"<center><img src="/11.png" width="375" height="667"></center>
 
 ## Tech/framework used
 Ex. -
 Built with
 Electron
 
-## Features
 What makes your project stand out?
 
 ## Code Example
