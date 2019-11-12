@@ -19,8 +19,38 @@ This is a template for recording video screens.
 ## Screenshots
 "![](/intro.jpg)"
 
-## Code Example
+## Installation
+If you use the GitHub website
+1. Open in Desktop or Download ZIP about this project
 
+If you use git bash
+1. git clone https://github.com/jogilsang/android-VideoRecordTimer.git
+
+## How to use?
+To open the project in Android Studio:  
+
+1. Launch Android Studio   
+2. select File-New-Import Project from the top menu bar  
+3. Just run  
+
+if it doesn't work, check build status at the top  
+
+4. Check your manifes file, and add the contents below.   
+   Implement getPermission () separately, or check the app's permissions manually after build  
+```xml
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+```
+
+5. The core code is shown below.  
 ```java
     private boolean prepareMediaRecorder() {
 
@@ -50,37 +80,6 @@ This is a template for recording video screens.
         return true;
 
     }
-```
-
-## Installation
-If you use the GitHub website
-1. Open in Desktop or Download ZIP about this project
-
-If you use git bash
-1. git clone https://github.com/jogilsang/android-VideoRecordTimer.git
-
-## How to use?
-To open the project in Android Studio:  
-
-1. Launch Android Studio   
-2. select File-New-Import Project from the top menu bar  
-3. Just run  
-
-if it doesn't work, check build status at the top  
-
-4. Check your manifes file, and add the contents below.   
-Implement getPermission () separately, or check the app's permissions manually after build  
-```xml
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.CAMERA" />
-
-    <uses-feature android:name="android.hardware.camera" />
-    <uses-feature android:name="android.hardware.camera.autofocus" />
-    <uses-feature
-        android:name="android.hardware.camera.front"
-        android:required="false" />
 ```
 
 ## Contribute
