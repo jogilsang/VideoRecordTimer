@@ -16,32 +16,12 @@ This is a template for recording video screens.
 - JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o  
 - Windows 10 10.0-  
 
-## Code Style
-
-
 ## Screenshots
 "![](/intro.jpg)"
 
-## Tech/framework used
-```
-import android.media.MediaRecorder;
-```
-
-```
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.CAMERA" />
-
-    <uses-feature android:name="android.hardware.camera" />
-    <uses-feature android:name="android.hardware.camera.autofocus" />
-    <uses-feature
-        android:name="android.hardware.camera.front"
-        android:required="false" />
-```
-
 ## Code Example
-```
+
+```java
     private boolean prepareMediaRecorder() {
 
         mediaRecorder = new MediaRecorder();
@@ -72,10 +52,6 @@ import android.media.MediaRecorder;
     }
 ```
 
-## Reference
-- Android-Video Intent and Video Paths, Video Playback Total Cleanup
-https://blog.naver.com/jogilsang/221694414001  
-
 ## Installation
 If you use the GitHub website
 1. Open in Desktop or Download ZIP about this project
@@ -84,8 +60,28 @@ If you use git bash
 1. git clone https://github.com/jogilsang/android-VideoRecordTimer.git
 
 ## How to use?
-Launch Android Studio and select File-New-Import Project from the top menu bar. Just run
-if it doesn't work, check build status at the top
+To open the project in Android Studio:  
+
+1. Launch Android Studio   
+2. select File-New-Import Project from the top menu bar  
+3. Just run  
+
+if it doesn't work, check build status at the top  
+
+4. Check your manifes file, and add the contents below.   
+Implement getPermission () separately, or check the app's permissions manually after build  
+```xml
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+```
 
 ## Contribute
 If you want to contribute to this project, it would be nice to add the following:
@@ -94,6 +90,10 @@ If you want to contribute to this project, it would be nice to add the following
 
 ## Credits
 @jogilsang
+
+## Reference
+- Android-Video Intent and Video Paths, Video Playback Total Cleanup  
+https://blog.naver.com/jogilsang/221694414001  
 
 ## License
 The MIT License © jogilsang
